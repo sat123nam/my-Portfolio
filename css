@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    background-color:whitesmoke ;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    
+
+}
+.logo{
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkcyan;
+    padding: 60px;
+    position: relative;
+    top: 10px;
+    
+}
+
+
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    float: left;
+    margin: 25px;
+    position: relative;
+    right: 300px;
+}
+.navbar ul li a{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:black;
+     font-size: 16px;
+}
+
+.navbar button{
+    float: right;
+    position: relative;
+    left: 500px;
+    top: 25px;
+    width: 130px;
+    height: 35px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.navbar ul li a:hover{
+    color:darkcyan;
+}
+.navbar button:hover{
+    background-color: rgb(7, 177, 244);
+}
+.main{
+
+    position: relative;
+    top: 140px;
+    padding: 0 150px;
+}
+ #name{
+    width: 130px;
+    height: 40px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+#work {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+#para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#image img{
+position: relative;
+left: 800px;
+bottom: 190px;
+}
+#btn1{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(161, 82, 235);
+    border: 0;
+    border-radius: 6px;
+    color: white;
+}
+#btn2{
+    width: 130px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.main button{
+    margin: 10px;
+    margin-top: 50px;
+}
+.link a{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color:white;
+    box-shadow: 500px;
+    border: 0;
+    margin: 10px;
+    position: relative;
+    top: 50px;
+
+}
+.link a i{
+    font-size: 15px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.about h2{
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.my-self{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+   position: relative;   
+    top: 100px;
+    right: 390px;
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.my-self h3{
+font-size: 25px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.my-self p{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 20px;
+}
+.my-self button{
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    float: right;
+    margin: 20px;
+    background-color: rgb(166, 89, 238);
+    border: 0;
+    border-radius: 7px;
+    color: white;
+    border: 0;
+}
+.skill{
+    width: 270px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    position: relative;
+    left: 690px;
+    bottom: 200px;
+    border: 0;
+    background-color: white;
+   
+}
+.skill h2{
+position: relative;
+left: 50px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+margin: 10px;
+
+}
+.skill button{
+    width: 100px;
+    height: 30px;
+    margin: 4px;
+    background-color: rgb(166, 89, 238);
+    border: 0;
+    color: white;
+    border-radius: 7px;
+
+}
+.project{
+    position: relative;
+    top: 200px;
+}
+.project h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+.project-box div{
+  width: 340px;
+  height: 240px;
+  border: 2px solid black;
+  margin: 20px;
+position: relative;
+right: 290px;
+top: 50px; 
+display: flex;
+}
+.container {
+    display: flex;
+    
+
+}
+.box {
+    width: 400px;
+    height: 230px;
+    border: 0;
+    background-color: white;
+    border-radius: 20px;
+display: flex;
+    line-height: 300px; /* Centers text vertically */
+    margin: 5px;
+    position: relative;
+    right: 300px;
+    top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(30, 163, 246);
+    
+}
+  .box h3{
+ display: block;  
+ position: relative;
+ left: 60px;
+}
+.box i{
+    position: relative;
+    top: 39px;
+    left: 110px;
+}
+.box label{
+    position: relative;
+    top: 40px;
+    right: 30px;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.box:hover{
+    background-color: rgb(30, 163, 246);
+    color: white;
+}
+.section{
+    width: 90%;
+    height: 450px;
+    position: relative;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-header h1{
+    position: relative;
+    bottom: 190px;
+    left: 350px;
+}
+.top-header span{
+    position: relative;
+    bottom: 160px;
+    left: 190px;
+}
+.row{
+    width: 390px;
+    height: 290px;
+    border:0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 350px;
+    top: 80px;
+    background-color: rgb(30, 163, 246);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row:hover{
+    background-color: white;
+    color: black;
+}
+.contact-info h2{
+    position: relative;
+    left: 100%;
+    bottom: 40px;
+} 
+.contact-info p{
+    margin-top: 20px;
+    position: relative;
+    left: 200px;
+}
+.fill{
+
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+.form-inputs{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+}
+.input-field{
+   
+    width: 170px;
+    height: 60px;
+    margin: 4px;
+    border: 1px solid #525151;
+    background-color: #f5f1f1;
+    border-radius: 10px;
+
+}
+.text-area{
+    position: relative;
+    bottom: 90px;
+}
+
+textarea{
+    width: 360px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:#f5f1f1;
+
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(30, 163, 246);
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form-button{
+    position: relative;
+    left: 250px;
+    bottom: 80px;
+
+}
+.top-part{
+    width: 600px;
+    height: 300px;
+    background-color:white;
+    border-radius: 15px;
+    border: 0;
+    position: absolute;
+ top:500px;    
+ left: 50px;
+}
+.top-part h2{
+    position: relative;
+    left: 36%;
+    font-size: 20px;
+
+}
+.top-part ul li a{
+    margin: 15px;
+    font-size: 15px;
+    color: black;
+    position: relative;
+    left: 50px;
+    top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lin{
+    position: relative;
+    left: 30%;
+    top: 90px;
+}
+.lin a{
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+
+
+}
+.bottom-footer{
+    position: relative;
+    top: 130px;
+    left:130px;
+}
